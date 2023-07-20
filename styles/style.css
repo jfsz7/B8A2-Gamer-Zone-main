@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;   
+    box-sizing: border-box;
+}
+/* nav section */
+header{
+    margin-bottom: 100px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px 10px 100px;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-title{
+    font-size: 35px; 
+}
+.logo{
+    width: 56px;
+    margin-right: 5px;  
+
+}
+.nav-span{
+    color: #FF42A5;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;  
+}
+nav a {
+    text-decoration: none;
+    color:#181818;
+    font-size: 18px;
+}
+.btn-follow{
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: 0;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.btn-primary{
+    border-radius: 48px;
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: 0;
+    color:#FFF;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+/* .follow-icon{
+    width: 20px;
+} */
+
+/* banner section */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(250, 196, 208, 0.1);
+}
+.banner-content{
+    width: 500px;
+}
+.goat{
+    font-size: 75px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #a905ea 0%, #04d50b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.banner .game-players {
+    width: 535px;
+    height: 500px;
+}
+.banner-heading {
+    color:#181818;
+    font-size: 35px;
+    font-weight: 700;
+   
+}
+.banner-desc {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+/* .online-funny-videos section */
+/* .video-container{
+    position: relative;
+    width: 50%;
+}
+.video-img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.video-desc{
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.video-container:hover .video-img{
+    opacity: 0.3;
+}
+
+.text{
+    background-image: url();
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+} */
+.online-funny-videos{
+    text-align: center;
+    
+}
+.video-container{
+    display: flex;
+}
+.card{
+    position: relative;
+    width: 50%;
+    margin: 100px 0;
+}
+.card img:hover{
+    
+    opacity: 0.5;
+}
+.inside-card{
+
+}
+/* .play-instantly-container */
+.play-container{
+    align-items: flex-end;
+}
+.play-instantly-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 100px;
+    margin: 100px 0;
+}
+.play-content{
+    width: 300px;
+    text-align: right;
+}
+.play-title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.play-desc{
+    line-height:25px;
+
+}
+.img-position1{
+    position: relative;
+}
+.img-position2{
+    position: absolute;
+    top:50%;
+    right:50%;
+    /* translate:(-50%, -50%); */
+}
+
+/* games-category section */
+.games-category{
+    /* max-width: 1200px;
+    margin: 0 auto;  */
+    margin: 130px 0 100px 0;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+.btn-img{
+    padding-right: 10px;
+}
+.btn:hover{
+    border: 2px solid #FF42A5;
+}
+.btn-down{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+
+/* footer section */
+.footer-container{
+    background: #0B0223;
+    color: #fff;
+    
+    text-align: center;
+    padding: 50px;
+}
+.footer-header{
+    padding: 50px;
+}
+ul>li{
+    list-style: none;
+    
+}
+li> a{
+    text-decoration: none;
+    color: rgb(155, 154, 154);
+    padding: 30px;
+}
+.details-tag ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+i{
+    padding-right: 20px ;
+}
+.icons {
+    margin-bottom: 50px;
+    color: #fff;
+}
+.terms-conditions ul{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    font-size: 16px;
+
+}
+.cp-desc{
+    color: rgb(155, 154, 154);
+    font-size: 16px;
+}

@@ -1,0 +1,14 @@
+/* mobile responsive */
+@media screen and (max-width:425px) {
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .card{
+        overflow: hidden;
+    }
+    .main-container{
+        flex-direction: grid;
+    }
+
+}
